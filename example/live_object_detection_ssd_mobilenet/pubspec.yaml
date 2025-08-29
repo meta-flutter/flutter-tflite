@@ -36,7 +36,12 @@ dependencies:
   cupertino_icons: ^1.0.5
   tflite_flutter:
     path: ../../
-  camera: ^0.10.5+2
+  camera: ^0.11.0+1
+  camera_linux:
+    git:
+      url: https://github.com/toyota-connected/tcna-packages
+      path: ./packages/camera/camera_linux
+      ref: main
   image: ^4.0.17
   path_provider: ^2.0.15
   image_picker: ^1.0.0
