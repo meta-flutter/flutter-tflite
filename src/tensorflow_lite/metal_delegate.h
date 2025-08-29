@@ -16,9 +16,9 @@ limitations under the License.
 #ifndef TENSORFLOW_LITE_DELEGATES_GPU_METAL_DELEGATE_H_
 #define TENSORFLOW_LITE_DELEGATES_GPU_METAL_DELEGATE_H_
 
-// #import <Metal/Metal.h>
+#import <Metal/Metal.h>
 
-#include "common.h"
+#include "tensorflow/lite/core/c/common.h"
 
 #ifdef __cplusplus
 extern "C" {
