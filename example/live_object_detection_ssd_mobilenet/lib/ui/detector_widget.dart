@@ -91,7 +91,7 @@ class _DetectorWidgetState extends State<DetectorWidget>
       return const SizedBox.shrink();
     }
 
-    var aspect = 1 / _controller.value.aspectRatio;
+    var aspect = _controller.value.aspectRatio;
 
     return Stack(
       children: [

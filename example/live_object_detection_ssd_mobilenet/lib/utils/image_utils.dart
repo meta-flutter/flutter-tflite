@@ -29,7 +29,7 @@ image_lib.Image convertYUV420ToImage(CameraImage cameraImage) {
   final height = cameraImage.height;
 
   final uvRowStride = cameraImage.planes[1].bytesPerRow;
-  final uvPixelStride = cameraImage.planes[1].bytesPerPixel!;
+  final uvPixelStride = cameraImage.planes[1].bytesPerPixel ?? 1;
 
   final yPlane = cameraImage.planes[0].bytes;
   final uPlane = cameraImage.planes[1].bytes;
